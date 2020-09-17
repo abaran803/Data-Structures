@@ -1,0 +1,6 @@
+Hash Function -> A function use to convert a number such that it can be used as index, eg. A phone number can be store by taking last three nuber as an index by applying, f(x) = x%1000;
+
+Collision -> When two records have same index like last 3-Digit of two different phone number can be same. To solve this problem we have two mwthods:
+	1.	Seprate Chaining:	We use linked list if for same index we insert 
+		record again then it will store in OldRecord->next
+	2.	Open Adressing:		
